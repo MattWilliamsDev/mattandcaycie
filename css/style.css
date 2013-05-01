@@ -1,0 +1,1027 @@
+/*
+	========================================
+	Ditinggal Rabi Wedding Invitation Themes
+	========================================
+	
+	@author			: Afriq Yasin Ramadhan
+	@version		: v1.0
+	@date-create	: 2/26/2013
+	@last-update	: 3/1/2013
+
+*/
+
+/*
+	TABLE OF CONTENT
+	1. IMPORT FONTS
+	2. GLOBAL STYLE
+	3. NAVBAR
+	4. HOME
+	5. ABOUT
+	6. CEREMONY
+	7. PHOTOS
+	8. CONTACT
+	9. RESPONSIVE
+
+*/
+
+
+/*
+	==================
+	[1. IMPORT FONTS]
+	==================
+*/
+@import url('font-awesome.min.css');
+@import url('animate.css');
+@import url(http://fonts.googleapis.com/css?family=Alex+Brush&subset=latin,latin-ext);
+@import url(http://fonts.googleapis.com/css?family=Playfair+Display+SC:400,700);
+@import url(http://fonts.googleapis.com/css?family=Rokkitt);
+
+@font-face{
+	font-family: 'Homestead';
+	src: url('../font/Homestead-Display.ttf');
+}
+
+/* 
+	==================
+	[2. GLOBAL STYLE]
+	==================
+*/
+body{
+	background: #fff;
+	margin: 0;
+	padding-top: 65px;
+	font-family: 'Rokkitt', serif;
+	font-size: 16px;
+}
+
+input,
+button,
+select,
+textarea {
+	font-family: 'Rokkitt', serif;
+}
+
+select,
+textarea,
+input[type="text"],
+input[type="password"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="date"],
+input[type="month"],
+input[type="time"],
+input[type="week"],
+input[type="number"],
+input[type="email"],
+input[type="url"],
+input[type="search"],
+input[type="tel"],
+input[type="color"],
+.uneditable-input {
+  display: inline-block;
+  height: 49px;
+  padding: 4px 15px;
+  margin-bottom: 10px;
+  font-size: 18px;
+  line-height: 22px;
+  color: #333;
+  vertical-align: middle;
+  -webkit-border-radius: 1px;
+     -moz-border-radius: 1px;
+          border-radius: 1px;
+}
+
+textarea {
+  height: auto;
+}
+
+textarea:focus,
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="date"]:focus,
+input[type="month"]:focus,
+input[type="time"]:focus,
+input[type="week"]:focus,
+input[type="number"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="color"]:focus,
+.uneditable-input:focus {
+  border-color: #fff;
+  background: rgba(255, 255, 255, 0.7);
+  outline: 0;
+  outline: thin dotted \9;
+  /* IE6-9 */
+
+  -webkit-box-shadow: inset 0 1px 1px rgba(255, 255, 255, 0.075), 0 0 8px rgba(255, 255, 255, 0.6);
+     -moz-box-shadow: inset 0 1px 1px rgba(255, 255, 255, 0.075), 0 0 8px rgba(255, 255, 255, 0.6);
+          box-shadow: inset 0 1px 1px rgba(255, 255, 255, 0.075), 0 0 8px rgba(255, 255, 255, 0.6);
+}
+
+.no-resize{
+	resize: none !important;
+}
+
+.green-line{
+	background: #a4c956;
+	height: 20px;
+	border-top: 3px solid #b1d95c;
+	border-bottom: 3px solid #b1d95c;
+}
+
+.btn-green{
+	background: #fff;
+	color: #999;
+	border: 1px solid #bbb;
+	border-radius: 1px;
+	-o-border-radius: 1px;
+	-moz-border-radius: 1px;
+	-webkit-border-radius: 1px;
+	transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+}
+
+.btn-green:hover,
+.btn-green:focus{
+	background: rgba(127,203,42,0.9);
+	border: 1px solid #72b626;
+	color: #fff;
+	text-shadow: 0 -1px 0 #999;
+	transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffa4c956', endColorstr='#ffa4c956', GradientType=0);
+}
+
+
+/*
+	==============
+	[3. NAVBAR]
+	==============
+*/
+.navbar-inner {
+  min-height: 65px;
+  padding-right: 20px;
+  padding-left: 20px;
+  background: url(../img/bg.png) repeat top center;
+  border: 1px solid #d4d4d4;
+  -webkit-border-radius: 4px;
+     -moz-border-radius: 4px;
+          border-radius: 4px;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../img/bg.png',sizingMethod='scale');
+	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../img/bg.png',sizingMethod='scale')";
+  *zoom: 1;
+  -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.065);
+     -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.065);
+          box-shadow: 0 1px 4px rgba(0, 0, 0, 0.065);
+  text-align:center;
+}
+
+.navbar .logo{
+	font-family: 'Alex Brush', cursive;
+	font-size: 32px;
+	color: #999;
+	transition: color 0.3s ease-in-out;
+	-o-transition: color 0.3s ease-in-out;
+	-webkit-transition: color 0.3s ease-in-out;
+	-moz-transition: color 0.3s ease-in-out;
+	text-decoration: none;
+	text-align: center;
+	padding: 25px 20px 10px;
+}
+
+.navbar .logo:hover,
+.navbar .logo:focus{
+	text-decoration: none;
+	color: #b1d95c;
+}
+
+.navbar .brand {
+  display: block;
+  float: left;
+  padding: 25px 20px 10px;
+  margin-left: -20px;
+  font-size: 20px;
+  font-weight: 200;
+  color: #999;
+  text-shadow: 0 1px 0 #fff;
+  transition: color 0.3s ease-in-out;
+  -o-transition: color 0.3s ease-in-out;
+  -webkit-transition: color 0.3s ease-in-out;
+  -moz-transition: color 0.3s ease-in-out;
+}
+
+.navbar .brand:hover,
+.navbar .brand:focus {
+  text-decoration: none;
+  color: #b1d95c /*#a4c956*/;
+}
+
+.navbar-text {
+  margin-bottom: 0;
+  margin-top: 10px;
+  line-height: 40px;
+  color: #777;
+}
+
+.navbar-link {
+  color: #999;
+  transition: color 0.3s ease-in-out;
+  -o-transition: color 0.3s ease-in-out;
+  -webkit-transition: color 0.3s ease-in-out;
+  -moz-transition: color 0.3s ease-in-out;
+  
+}
+
+.navbar-link:hover,
+.navbar-link:focus  {
+	color: #b1d95c;
+}
+
+.navbar .nav {
+  left: 0;
+  display: block;
+  float: left;
+  margin: 0 10px 0 0;
+}
+
+.navbar .nav,
+.navbar .nav > li > a {
+  float:none;
+  display:inline-block;
+  *display:inline; /* ie7 fix */
+  *zoom:1; /* hasLayout ie7 trigger */
+  vertical-align: top;
+}
+
+.navbar .nav > li > a {
+  float: none;
+  padding: 25px 25px 20px;
+  color: #999;
+  text-decoration: none;
+  text-shadow: 0 1px 0 #ffffff;
+  transition: color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  -o-transition: color 0.3s ease-in-out,-o-box-shadow 0.3s ease-in-out;
+  -webkit-transition: color 0.3s ease-in-out, -webkit-box-shadow 0.3s ease-in-out;
+  -moz-transition: color 0.3s ease-in-out, -moz-box-shadow 0.3s ease-in-out;
+}
+
+.navbar .nav > li > a:focus,
+.navbar .nav > li > a:hover {
+  color: #b1d95c;
+  text-decoration: none;
+  background-color: transparent;
+  -webkit-box-shadow: inset 0 3px 8px rgba(0, 0, 0, 0.125);
+     -moz-box-shadow: inset 0 3px 8px rgba(0, 0, 0, 0.125);
+          box-shadow: inset 0 3px 8px rgba(0, 0, 0, 0.125);
+  transition: box-shadow 0.3s ease-in-out;
+  -o-transition: box-shadow 0.3s ease-in-out, -o-box-shadow 0.3s ease-in-out;
+  -webkit-transition: box-shadow 0.3s ease-in-out, -webkit-box-shadow 0.3s ease-in-out;
+  -moz-transition: box-shadow 0.3s ease-in-out, -moz-box-shadow 0.3s ease-in-out;
+}
+
+.navbar .nav > .active > a,
+.navbar .nav > .active > a:hover,
+.navbar .nav > .active > a:focus {
+  color: #a4c956;
+  text-decoration: none;
+  background-color: transparent;
+  -webkit-box-shadow: inset 0 3px 8px rgba(0, 0, 0, 0.125);
+     -moz-box-shadow: inset 0 3px 8px rgba(0, 0, 0, 0.125);
+          box-shadow: inset 0 3px 8px rgba(0, 0, 0, 0.125);
+		  outline: none;
+}
+
+
+/*
+	============
+	[4. HOME]
+	============
+*/
+#home{
+	background-color:#fff;
+	background:url(../img/wedding1.jpg)  no-repeat fixed center center transparent;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../img/wedding1.jpg',sizingMethod='scale');
+	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../img/wedding1.jpg',sizingMethod='scale')";
+	background-size: 100% 100%;
+	height: 780px;
+	padding: 40px 0 50px;
+	
+}
+
+#home h1{
+	font-family: 'Alex Brush', cursive;
+	font-weight: normal;
+	font-size: 85px;
+	line-height:85px;
+	color: #fff;
+	text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.5);
+	filter: dropshadow(color=rgba(0, 0, 0, 0.5), offx=1, offy=1);
+	text-align: center;
+	padding: 100px 0 50px;
+	margin: 0;
+}
+
+#home h2{
+	font-family: 'Homestead';
+	font-size: 120px;
+	line-height: 122px;
+	color: #a4c956;
+	text-shadow:  8px 7px 0px rgba(0, 0, 0, 0.3);
+	filter: dropshadow(color=rgba(0,0,0, 0.3), offx=8, offy=7);
+	text-align: center;
+	padding-top: 30px;
+}
+
+#home h3{
+	font-family: 'Playfair Display SC', serif;
+	font-size: 18px;
+	line-height: 20px;
+	color: #272727;
+	text-align: center;
+	text-transform: capitalize;
+	font-weight: 400;
+	letter-spacing: 5px;
+}
+
+#home .line{
+	position: relative;
+	margin: 13px auto 0;
+}
+
+#home .line:before{
+	content: "";
+	width: 340px;
+	height: 2px;
+	background: #272727;
+	position: absolute;
+	left: 130px;
+	top: 10px;
+}
+
+#home .line:after{
+	content: "";
+	width: 340px;
+	height: 2px;
+	background: #272727;
+	position: absolute;
+	right: 130px;
+	top: 10px;
+}
+
+
+#home h4{
+	font-family: 'Playfair Display SC', serif;
+	font-size: 16px;
+	line-height: 20px;
+	color: #272727;
+	text-align: center;
+	text-transform: capitalize;
+	font-weight: 400;
+	letter-spacing: 8px;
+}
+
+#home h5{
+	font-family: 'Rokkitt', serif;
+	font-size: 30px;
+	line-height: 34px;
+	color: #fff;
+	text-align: center;
+	text-transform: capitalize;
+	font-weight: 400;
+	width: 250px;
+	background: #272727;
+	margin: 20px auto 0;
+	padding: 10px 15px;
+	border-radius: 4px;
+	letter-spacing: 4px;
+}
+
+
+/*
+	==============
+	[5. ABOUT]
+	==============
+*/
+
+#about{
+	background-color: #fff;
+	background: url(../img/bg.png);
+	font-family: 'Rokkitt', serif;
+	font-size: 16px;
+	line-height: 24px;
+	color: #888;
+	font-weight: 300;
+	padding: 50px 0; 
+	position:relative;
+}
+
+#about:before {
+	content: "";
+	width: 100%;
+	position: absolute;
+	top: 0px;
+	height: 26px;
+	background: url(../img/line.png);
+}
+
+#about:after{
+	content: "";
+	width: 100%;
+	position: absolute;
+	bottom: 0px;
+	height: 26px;
+	background: url(../img/line.png);
+} 
+
+#about div.container{
+	text-align: center;
+}
+
+#about blockquote{
+	text-align: left;
+}
+
+#about h2{
+	font-family: 'Alex Brush', cursive;
+	font-size: 85px;
+	line-height:85px;
+	color: #444;
+	text-shadow: 1px 1px 0px rgba(255, 255, 255, 0.5);
+	filter: dropshadow(color=rgba(255, 255, 255, 0.5), offx=1, offy=1);
+	text-align: center;
+	padding: 20px 0 0;
+	margin: 0;
+}
+
+#about .img img{
+	display: block;
+	margin: 0 auto;
+}
+
+
+/*
+	================
+	[6. CEREMONY]
+	================
+*/
+#ceremony{
+	background-color:#fff;
+	background:url(../img/wedding1.jpg)  no-repeat fixed center center transparent;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../img/wedding1.jpg',sizingMethod='scale');
+	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../img/wedding1.jpg',sizingMethod='scale')";
+	background-size: 100% 100%;
+	height: 800px;
+	padding: 40px 0;
+	position:relative;
+}
+
+#ceremony:after{
+	content: "";
+	width: 100%;
+	position: absolute;
+	bottom: 0px;
+	height: 26px;
+	background: url(../img/line.png);
+}
+
+#ceremony h1{
+	font-family: 'Alex Brush', cursive;
+	font-weight: normal;
+	font-size: 85px;
+	line-height:85px;
+	color: #fff;
+	text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.5);
+	filter: dropshadow(color=rgba(0, 0, 0, 0.5), offx=1, offy=1);
+	text-align: center;
+	padding: 80px 0 30px;
+	margin: 0;
+}
+
+#ceremony h2{
+	font-family: 'Homestead';
+	font-size: 120px;
+	line-height: 122px;
+	color: #a4c956;
+	text-shadow:  8px 7px 0px rgba(0, 0, 0, 0.3);
+	filter: dropshadow(color=rgba(0,0,0, 0.3), offx=8, offy=7);
+	text-align: center;
+	padding-top: 30px;
+}
+
+#ceremony h3{
+	font-family: 'Playfair Display SC', serif;
+	font-size: 18px;
+	line-height: 20px;
+	color: #272727;
+	text-align: center;
+	text-transform: capitalize;
+	font-weight: 400;
+	letter-spacing: 5px;
+}
+
+#ceremony .line{
+	position: relative;
+	margin: 13px auto 0;
+}
+
+#ceremony .line:before{
+	content: "";
+	width: 320px;
+	height: 2px;
+	background: #272727;
+	position: absolute;
+	left: 130px;
+	top: 10px;
+}
+
+#ceremony .line:after{
+	content: "";
+	width: 320px;
+	height: 2px;
+	background: #272727;
+	position: absolute;
+	right: 130px;
+	top: 10px;
+}
+
+
+#ceremony h4{
+	font-family: 'Playfair Display SC', serif;
+	font-size: 16px;
+	line-height: 20px;
+	color: #272727;
+	text-align: center;
+	text-transform: capitalize;
+	font-weight: 400;
+	letter-spacing: 3px;
+	padding-top: 20px;
+}
+
+#ceremony h5{
+	font-family: 'Rokkitt', serif;
+	font-size: 30px;
+	line-height: 34px;
+	color: #fff;
+	text-align: center;
+	text-transform: capitalize;
+	font-weight: 400;
+	width: 250px;
+	background: #272727;
+	margin: 20px auto 0;
+	padding: 10px 15px;
+	border-radius: 4px;
+	letter-spacing: 4px;
+}
+
+
+/*
+	==============
+	[7. PHOTOS]
+	==============
+*/
+
+#photos{
+	background: url(../img/bg.png);
+	padding: 50px 0;
+	font-family: 'Rokkitt', serif;
+	font-size: 16px;
+	line-height: 24px;
+	color: #888;
+	font-weight: 300;
+	position:relative;
+}
+
+#photos:after{
+	content: "";
+	width: 100%;
+	position: absolute;
+	bottom: 0px;
+	height: 26px;
+	background: url(../img/line.png);
+}
+
+#photos p{
+	font-size: 16px;
+	line-height: 24px;
+}
+
+#photos div.container{
+	text-align: center;
+}
+
+#photos blockquote{
+	text-align: left;
+}
+
+#photos h2{
+	font-family: 'Playfair Display SC', serif;
+	font-weight: normal;
+	font-size: 18px;
+	line-height:24px;
+	color: #444;
+	text-shadow: 1px 1px 0px rgba(255, 255, 255, 0.5);
+	filter: dropshadow(color=rgba(255, 255, 255, 0.5), offx=1, offy=1);
+	text-align: center;
+	padding: 20px 0 20px;
+	margin: 0;
+	text-align: center;
+}
+
+#photos h4{
+	font-family: 'Playfair Display SC', serif;
+	font-weight: 400;
+}
+
+#photos .img img{
+	display: block;
+	margin: 0 auto;
+}
+
+
+/*
+	================
+	[8. CONTACT]
+	================
+*/
+#contact{
+	background-color:#fff;
+	background:url(../img/wedding2.jpg)  no-repeat fixed center center transparent;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../img/wedding2.jpg',sizingMethod='scale');
+	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../img/wedding2.jpg',sizingMethod='scale')";
+	background-size: 100% 100%;
+	height: 750px;
+	padding: 40px 0;
+}
+
+#contact h2{
+    font-family: 'Alex Brush', cursive;
+	font-weight: normal;
+	font-size: 85px;
+	line-height:85px;
+	color: #fff;
+	text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.5);
+	filter: dropshadow(color=rgba(0, 0, 0, 0.5), offx=1, offy=1);
+	text-align: center;
+	padding: 100px 0 30px;
+	margin: 0;
+}
+
+#contact h5{
+	font-family: 'Rokkitt', serif;
+	font-size: 30px;
+	line-height: 34px;
+	color: #fff;
+	text-align: center;
+	text-transform: capitalize;
+	font-weight: 400;
+	width: 250px;
+	background: #272727;
+	margin: 20px auto 0;
+	padding: 10px 15px;
+	border-radius: 4px;
+	letter-spacing: 4px;
+}
+
+
+#contact .well {
+  min-height: 20px;
+  padding: 19px;
+  margin-bottom: 20px;
+  background-color: rgba(255,255,255,0.7);
+  border: 1px solid #fff;
+  -webkit-border-radius: 2px;
+     -moz-border-radius: 2px;
+          border-radius: 2px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(255, 255, 255, 0.5);
+     -moz-box-shadow: inset 0 1px 1px rgba(255, 255, 255, 0.5);
+          box-shadow: inset 0 1px 1px rgba(255, 255, 255, 0.5);
+}
+
+#contact input["type=text"], #contact textarea{
+	border-radius: 0;
+	outline: none;
+}
+
+
+/*
+	================
+	[9. RESPONSIVE]
+	================
+*/
+
+@media (min-width: 979px) and (max-width: 1200px)  {
+	#home h1{
+		padding: 100px 0 20px;
+	}
+	
+	#home .line:before{
+		width: 220px;
+	}
+
+	#home .line:after{
+		width: 220px;
+	}
+	
+	#ceremony .line:before {
+		width: 210px;
+	}
+		
+	#ceremony .line:after {
+		width: 210px;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 979px) {
+	body{
+		padding-top: 0;
+		margin-top: 0;
+	}
+	
+	.navbar-fixed-top{
+		margin-bottom: 0;
+	}
+	
+	.navbar-fixed-top,
+	.navbar-fixed-bottom{
+		position: fixed;
+	}
+	
+	.navbar .nav {
+	  position: relative;
+	  left: 0;
+	  display: block;
+	  float: left;
+	  margin: 0;
+	}
+
+	.navbar .nav,
+	.navbar .nav > li > a {
+	  float:none;
+	  display:block;
+	  *display:block; /* ie7 fix */
+	  *zoom:1; /* hasLayout ie7 trigger */
+	  vertical-align: top;
+	}
+
+	.navbar .nav > li > a {
+	  float: none;
+	  padding: 10px 0px 15px;
+	  color: #999;
+	  display: block;
+	  transition: color 0.3s ease-in-out;
+	  -o-transition: color 0.3s ease-in-out;
+	  -webkit-transition: color 0.3s ease-in-out;
+	  -moz-transition: color 0.3s ease-in-out;
+	  font-weight: 300;
+	}
+
+	.navbar .nav > li > a:focus,
+	.navbar .nav > li > a:hover {
+	  color: #b1d95c;
+	  text-decoration: none;
+	  background-color: transparent;
+	  -webkit-box-shadow: none;
+		 -moz-box-shadow: none;
+			  box-shadow: none;
+	  transition: color 0.3s ease-in-out;
+	  -o-transition: color 0.3s ease-in-out;
+	  -webkit-transition: color 0.3s ease-in-out;
+	  -moz-transition: color 0.3s ease-in-out;
+	  outline: none;
+	}
+
+	.navbar .nav > .active > a,
+	.navbar .nav > .active > a:hover,
+	.navbar .nav > .active > a:focus {
+	  color: #a4c956;
+	  text-decoration: none;
+	  background-color: transparent;
+	  -webkit-box-shadow: none;
+		 -moz-box-shadow: none;
+			  box-shadow: none;
+	}
+	
+	.navbar .btn-navbar {
+		margin-top: 15px;
+	}
+	
+	#home h1{
+		padding: 100px 0 0px;
+	}
+	
+	#home h2{
+		text-align: center;
+		font-size: 90px;
+	}
+	
+	#home .line:before {
+		width: 120px;
+	}
+		
+	#home .line:after {
+		width: 120px;
+	}
+	
+	#ceremony .line:before {
+		width: 100px;
+	}
+		
+	#ceremony .line:after {
+		width: 100px;
+	}
+	
+}
+
+@media (max-width: 767px) {
+  body {
+	margin-top: 0;
+	padding-top: 0;
+	padding-right: 0px;
+	padding-left: 0;
+  }
+  .navbar-fixed-top,
+  .navbar-fixed-bottom,
+  .navbar-static-top {
+	margin-bottom: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+  
+	.navbar-fixed-top,
+	.navbar-fixed-bottom{
+		position: fixed;
+	}
+	
+	.navbar .nav {
+	  position: relative;
+	  left: 0;
+	  display: block;
+	  float: left;
+	  margin: 0;
+	}
+
+	.navbar .nav,
+	.navbar .nav > li > a {
+	  float:none;
+	  display:block;
+	  *display:block; /* ie7 fix */
+	  *zoom:1; /* hasLayout ie7 trigger */
+	  vertical-align: top;
+	}
+
+	.navbar .nav > li > a {
+	  float: none;
+	  padding: 10px 0px 15px;
+	  color: #999;
+	  display: block;
+	  transition: color 0.3s ease-in-out;
+	  -o-transition: color 0.3s ease-in-out;
+	  -webkit-transition: color 0.3s ease-in-out;
+	  -moz-transition: color 0.3s ease-in-out;
+	  font-weight: 300;
+	}
+
+	.navbar .nav > li > a:focus,
+	.navbar .nav > li > a:hover {
+	  color: #b1d95c;
+	  text-decoration: none;
+	  background-color: transparent;
+	  -webkit-box-shadow: none;
+		 -moz-box-shadow: none;
+			  box-shadow: none;
+	  transition: color 0.3s ease-in-out;
+	  -o-transition: color 0.3s ease-in-out;
+	  -webkit-transition: color 0.3s ease-in-out;
+	  -moz-transition: color 0.3s ease-in-out;
+	  outline: none;
+	}
+
+	.navbar .nav > .active > a,
+	.navbar .nav > .active > a:hover,
+	.navbar .nav > .active > a:focus {
+	  color: #a4c956;
+	  text-decoration: none;
+	  background-color: transparent;
+	  -webkit-box-shadow: none;
+		 -moz-box-shadow: none;
+			  box-shadow: none;
+	}
+	
+	.navbar .btn-navbar {
+		margin-top: 15px;
+	}
+	
+	#home h1{
+		padding: 50px 20px 20px;
+	}
+	
+	#home h2{
+		text-align: center;
+		font-size: 90px;
+	}
+	
+	#home .line:before {
+		width: 130px;
+	}
+		
+	#home .line:after {
+		width: 130px;
+	}
+	
+	#about div.container{
+		padding: 0 20px;
+	}
+	
+	#ceremony div.container{
+		padding: 0 20px;
+	}
+	
+	#ceremony h2{
+		text-align: center;
+		font-size: 90px;
+	}
+	
+	#ceremony .line:before {
+		width: 100px;
+	}
+		
+	#ceremony .line:after {
+		width: 100px;
+	}
+	
+	#photos div.container{
+		padding: 0 20px;
+		text-align: center;
+	}
+	
+	#contact .well{
+		margin: 0 40px;
+	}
+}
+
+@media (min-width: 480px) and (max-width: 767px) {
+	#home .line:before {
+		width: 120px;
+	}
+		
+	#home .line:after {
+		width: 120px;
+	}
+	
+	#home h2{
+		text-align: center;
+		font-size: 70px;
+	}
+	
+	#ceremony .line:before {
+		width: 80px;
+	}
+		
+	#ceremony .line:after {
+		width: 80px;
+	}
+	
+	#ceremony h2{
+		text-align: center;
+		font-size: 70px;
+	}
+	
+}
+
+@media (max-width: 480px) {
+	#home .line:before {
+		background: transparent;
+	}
+		
+	#home .line:after {
+		background: transparent;
+	}
+	
+	#home h2{
+		text-align: center;
+		font-size: 50px;
+	}
+	
+	#ceremony .line:before {
+		background: transparent;
+	}
+		
+	#ceremony .line:after {
+		background: transparent;
+	}
+	
+	#ceremony h2{
+		text-align: center;
+		font-size: 50px;
+	}
+
+}
+
