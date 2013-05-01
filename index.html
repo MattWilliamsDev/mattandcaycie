@@ -2,10 +2,10 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Ditinggal Rabi - Wedding Invitation Themes By Avriqq</title>
+    <title>Matt and Caycie | June 15, 2013</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="ditinggal rabi responsive wedding invitation themes build with bootstrap">
-    <meta name="author" content="afriq yasin ramadhan">
+    <meta name="description" content="Matt and Caycie are getting married!  June 15th, 2013 - 6:30pm">
+    <meta name="author" content="Matt Williams">
 
     <!-- Le styles -->
     <link href="css/bootstrap.css" rel="stylesheet">
@@ -40,14 +40,14 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-		  <a class="hidden-desktop logo" href="#home">Lorenso & Julia</a>
+		  <a class="hidden-desktop logo" href="#home">Matt &amp; Caycie</a>
           <div class="nav-collapse collapse">
             <ul class="nav menu-nav">
               <li class="active"><a href="#home">Home</a></li>
               <li><a href="#about">About</a></li>
               <li><a href="#ceremony">Ceremony</a></li>
               <li><a href="#photos">Photos</a></li>
-              <li><a href="#contact">Contact</a></li>
+              <li><a href="#contact">RSVP</a></li>
             </ul>
           </div><!--/.nav-collapse--> 
         </div>
@@ -58,11 +58,11 @@
 		<div class="container">
 			<div class="row">
 				<div class="span12">
-					<h1>Lorenso & Julia</h1>
+					<h1>Matt &amp; Caycie</h1>
 					<div class="line"><h3>Are getting</h3></div>
 					<h2><i class="icon-heart-empty"></i> MARRIED! <i class="icon-heart-empty"></i></h2>
-					<h4>And They are please to </h4>
-					<h5>~ INVITE YOU ~</h5>
+					<!-- <h4>And They are pleased to </h4>
+					<h5>~ INVITE YOU ~</h5> -->
 				</div>
 			</div>
 		</div>
@@ -72,27 +72,27 @@
 		<div class="container">
 			<div class="row">
 				<div class="span4">
-					<h2>Lorenso</h2>
-					<p>Lorenso, 21 Tahun. Pria tak tampan yang bercita-cita menjadi jutawan dengan modal pas-pasan.
+					<h2>Matt</h2>
+					<p>Matt, 21 Tahun. Pria tak tampan yang bercita-cita menjadi jutawan dengan modal pas-pasan.
 					Hobi berenang, menolong teman, sepak bola, main futsal, main PES, dan segala sesuatu tentang bal-balan.
 					Bisanya cuma nyinyir dan komentar, agak sombong tapi nggak arogan. </p>
 					<blockquote>
 						Cinta itu.. jika kamu bilang iya ~ waktu aku bertanya "Maukah kau menikah denganku?" #eeaaa
-						<small>Lorenso</small>
+						<small>Matt</small>
 					</blockquote>
 				</div>
 				<div class="span4 img">
-					<img src="img/lorensojulia.png">
+					<img src="img/mattcaycie.png">
 					<img src="img/bottom.png">
 				</div>
 				<div class="span4">
-					<h2>Julia</h2>
-					<p>Julia, 20 Tahun. Wanita periang yang bercita-cita menjadi seorang pendidik dan pengajar.
+					<h2>Caycie</h2>
+					<p>Caycie, 20 Tahun. Wanita periang yang bercita-cita menjadi seorang pendidik dan pengajar.
 					Murah senyum, galak, tapi sangat cengeng. Tinggi, langsing, hidung pesek dan bergingsul.
 					Hobi makan es krim, mie ayam dan ngambek. Care sama temen dan pokoknya lakik #ehh.</p>
 					<blockquote>
 						Cinta itu.. jika kamu langsung datang kerumah dan melamarku ~ #duhh
-						<small>Julia</small>
+						<small>Caycie</small>
 					</blockquote>
 				</div>
 			</div>
@@ -105,9 +105,14 @@
 				<div class="span12">
 					<h1>The Ceremony</h1>
 					<div class="line"><h3>Will Be Held On</h3></div>
-					<h2>26, 2013</h2>
-					<h5>~ DECEMBER ~</h5>
-					<h4>Mi'rojul Muttaqinallah Mosque, Yogyakarta 09.00 WIB</h4>
+					<h2>June 15th, 2013</h2>
+					<h5>~ 6:30pm ~</h5>
+					<h4>
+						<address>
+							The Baptist Temple<br>
+							Logansport, IN 46947
+						</address>
+					</h4>
 				</div>
 			</div>
 		</div>
@@ -118,8 +123,8 @@
 			<div class="row">
 				<div class="span4 img">
 					<img src="img/bottom.png">
-					<h2>Wedding Gallery</h2>
-					<p>Here, you can put photos of about couple, prewedd, and many more.</p>
+					<h2>Photos</h2>
+					<p>View photos of the happy couple!</p>
 				</div>
 				<div class="span8">
 					<div class="row-fluid">
@@ -167,17 +172,25 @@
 		<div class="container">
 			<div class="row">
 				<div class="span12">
-					<h2>Contact Us</h2>
+					<h2>RSVP</h2>
 					<div class="well">
 						<div class="row-fluid">
-							<form>
+							<form id="rsvp-form">
 								<div class="span6">
-									<textarea rows="7" class="span12 no-resize" placeholder="Message" id="inputSuccess"></textarea>
+									<button type="button" class="rsvp-choice" name="attending[0]" id="am-attending" value="true">
+										<span>Attending</span>
+									</button>
+
+									<button type="button" class="rsvp-choice" name="attending[1]" id="not-attending" value="false">
+										<span>Not Attending</span>
+									</button>
+
+									<input type="hidden" name="attending" id="attending"/>
 								</div>
 								<div class="span6">
-									<input type="text" class="span12" placeholder="Name" id="inputSuccess" >
-									<input type="email" class="span12" placeholder="Email" id="inputSuccess" >
-									<input type="submit" value="Submit" class="btn btn-large btn-green" />
+									<input type="text" class="span12" placeholder="Name" id="inputSuccess" name="name">
+									<input type="text" class="span12" placeholder="Number Attending" id="number-attending" name="number-attending" required pattern="[0-9]*">									
+									<input type="submit" value="Submit" class="btn btn-large btn-green" id="submit" />
 								</div>
 							</form>
 						</div>
@@ -198,6 +211,39 @@
 	<script src="js/jquery.backgroundSize.js"></script>
     <script src="js/script.js"></script>
 	
+	<script>
+	$(function(){
+		$('.rsvp-choice').on({
+			click: function(e){
+				e.preventDefault();
+				var $this = $(this);
+
+				$('.rsvp-choice').removeClass('selected');
+				$this.addClass('selected');
+				$('#attending').val($this.val());
+			}
+		});
+
+		$('#submit').on({
+			click: function(e){
+				e.preventDefault();
+				$('input', '#rsvp-form').each(function(){
+					var value = $(this).val();
+					var id = $(this).attr('name');
+
+					$('#rsvp-form').data(id, value);
+				});
+
+				$.ajax({
+					url: 'lib/processForm.php',
+					data: $('#rsvp-form').data()
+				}).done(function(data){
+					console.log('data', data);
+				});
+			}
+		});
+	});
+	</script>
 
   </body>
 </html>

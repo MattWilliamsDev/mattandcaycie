@@ -1,0 +1,800 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"sp-entry",
+				"sp-entry-form"
+			],
+			[
+				"un",
+				"unvalidated"
+			],
+			[
+				"select",
+				"selectboxit"
+			],
+			[
+				"remove",
+				"removeClass"
+			],
+			[
+				"validato",
+				"validator-icon"
+			],
+			[
+				"no",
+				"no-repeat  (value)"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"address",
+				"address-correct"
+			],
+			[
+				"hidden",
+				"hidden-content"
+			],
+			[
+				"table",
+				"table-cell"
+			],
+			[
+				"step",
+				"step2"
+			],
+			[
+				"hidd",
+				"hidden-content"
+			],
+			[
+				"content",
+				"content-div"
+			],
+			[
+				"sp-ent",
+				"sp-entry-form"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"left",
+				"leftPos"
+			],
+			[
+				"vert",
+				"vertical-align:   (property)"
+			],
+			[
+				"con",
+				"container"
+			],
+			[
+				"outer",
+				"outerWidth  (variable)"
+			],
+			[
+				"callbak",
+				"callbackDiv"
+			],
+			[
+				"call",
+				"callbackDiv"
+			],
+			[
+				"max-",
+				"max-height"
+			],
+			[
+				"min-",
+				"min-height"
+			],
+			[
+				"mouse",
+				"mouseenter"
+			],
+			[
+				"inn",
+				"innerWidth"
+			],
+			[
+				"exte",
+				"extendedPos"
+			],
+			[
+				"sub-na",
+				"sub-nav-toggle"
+			],
+			[
+				"sub-n",
+				"sub-nav-toggle"
+			],
+			[
+				"question",
+				"questionContainer"
+			],
+			[
+				"que",
+				"questionContainer"
+			],
+			[
+				"sel",
+				"selectQuestion"
+			],
+			[
+				"result",
+				"resultNPDrops"
+			],
+			[
+				"ques",
+				"quesContainerDd"
+			],
+			[
+				"answer",
+				"answersId"
+			],
+			[
+				"final",
+				"finalHorizPos"
+			],
+			[
+				"ver",
+				"vertHeight"
+			],
+			[
+				"abs",
+				"absoluteBot"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"socPadd",
+				"socPaddingBot"
+			],
+			[
+				"socPaddin",
+				"socPaddingTop"
+			],
+			[
+				"manPad",
+				"manPaddingRight"
+			],
+			[
+				"manPa",
+				"manPaddingLeft"
+			],
+			[
+				"manual",
+				"manual-register"
+			],
+			[
+				"window",
+				"windowWidth"
+			],
+			[
+				"social",
+				"social-register"
+			],
+			[
+				"title",
+				"titleSpan"
+			],
+			[
+				"carou",
+				"carousel-markup"
+			],
+			[
+				"padding",
+				"padding-top"
+			],
+			[
+				"last",
+				"lastDayEnd"
+			],
+			[
+				"lastD",
+				"lastDayEnd"
+			],
+			[
+				"dmdrops_tar",
+				"dmdrops_targetinhomestart"
+			],
+			[
+				"fetch_",
+				"fetch_all()	mysqli_result"
+			],
+			[
+				"num",
+				"number_help	number_help"
+			],
+			[
+				"var_",
+				"var_dump"
+			],
+			[
+				"pressd",
+				"pressdate"
+			],
+			[
+				"new",
+				"newActiveJobs"
+			],
+			[
+				"dmdrops_ta",
+				"dmdrops_targetinhomestart"
+			],
+			[
+				"dmdrops_",
+				"dmdrops_targetinhomestop"
+			],
+			[
+				"CDbC",
+				"CDbCriteria  (class)"
+			],
+			[
+				"pressdateDS",
+				"pressdateDST2"
+			],
+			[
+				"var_d",
+				"var_dump()"
+			],
+			[
+				"va",
+				"var_dump"
+			],
+			[
+				"respons",
+				"responseJSON"
+			],
+			[
+				"perce",
+				"percentA"
+			],
+			[
+				"numbr",
+				"number_format"
+			],
+			[
+				"Final",
+				"finalEntries"
+			],
+			[
+				"di",
+				"dividedBy"
+			],
+			[
+				"chances",
+				"chancesForPrize"
+			],
+			[
+				"exp",
+				"explode"
+			],
+			[
+				"wp_register",
+				"wp_register_script"
+			],
+			[
+				"require",
+				"require_once"
+			],
+			[
+				"number",
+				"number_format"
+			],
+			[
+				"Arial",
+				"Arial, Helvetica, sans-serif"
+			],
+			[
+				"numb",
+				"number_format"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"pack re",
+				"Package Control: Remove Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Remove Package"
+			],
+			[
+				"syn css",
+				"Set Syntax: CSS"
+			],
+			[
+				"syn js",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"js",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"ins	",
+				"Package Control: Install Package"
+			],
+			[
+				"Snippet: bootstrap",
+				"Snippet: Bootstrap toolbar"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"css",
+				"Set Syntax: CSS"
+			],
+			[
+				"syn php",
+				"Set Syntax: PHP"
+			],
+			[
+				"jslint",
+				"JSLint"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"syn cs",
+				"Set Syntax: CSS"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"php",
+				"Set Syntax: PHP"
+			],
+			[
+				"html",
+				"Tidy HTML"
+			],
+			[
+				"indy",
+				"INDY500"
+			],
+			[
+				"ind",
+				"INDY500"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"insall",
+				"SublimeLint: Show All Errors"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"isntal",
+				"Snippet: Add New BSD license to a plain text file"
+			],
+			[
+				"instl",
+				"Package Control: Install Package"
+			],
+			[
+				"isnt",
+				"Sort Lines (Case Sensitive)"
+			]
+		],
+		"width": 562.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/mwilliams/Web Stuff/repos/kiosk/lib/functions.php",
+		"/C/Users/mwilliams/Web Stuff/repos/kiosk/lib/getMakes.php",
+		"/C/Users/mwilliams/Web Stuff/repos/kiosk/lib/getModels.php",
+		"/C/Users/mwilliams/Web Stuff/repos/blp/index.php",
+		"/C/Users/mwilliams/Web Stuff/repos/kiosk/content/step10.php",
+		"/C/Users/mwilliams/Web Stuff/repos/kiosk/content/step5.php",
+		"/C/Users/mwilliams/Web Stuff/repos/kiosk/content/step4.php",
+		"/C/Users/mwilliams/Web Stuff/repos/kiosk/css/style1.css",
+		"/C/Users/mwilliams/Web Stuff/repos/kiosk/css/style3.css",
+		"/C/Users/mwilliams/Web Stuff/repos/kiosk/css/style2.css",
+		"/C/Users/mwilliams/Web Stuff/repos/kiosk/content/step2.php",
+		"/C/Users/mwilliams/Web Stuff/repos/kiosk/content/step1.php",
+		"/C/Users/mwilliams/Web Stuff/repos/kiosk/js/jquery.kiosks.js",
+		"/C/Users/mwilliams/Web Stuff/repos/kiosk/content/step3.php",
+		"/C/Users/mwilliams/Web Stuff/repos/kiosk/js/jquery.mv.js",
+		"/C/Users/mwilliams/Web Stuff/repos/kiosk/js/jquery.shades.js",
+		"/C/Users/mwilliams/Web Stuff/repos/e3/tammi/protected/config/globals.php",
+		"/C/Users/mwilliams/Web Stuff/repos/e3/tammi/protected/config/test.php",
+		"/C/Users/mwilliams/Web Stuff/repos/e3/tammi/protected/config/console.php",
+		"/C/Users/mwilliams/Web Stuff/repos/e3/lester.inc.php",
+		"/C/Users/mwilliams/Web Stuff/repos/kiosks-new/ftpsync.settings",
+		"/C/Users/mwilliams/Web Stuff/repos/localprintshop/wp-content/plugins/fineuploader/fineuploader.php",
+		"/C/Users/mwilliams/AppData/Local/Temp/Rar$DIa0.867/jquery.mobile.custom.css",
+		"/C/Users/mwilliams/Web Stuff/repos/kiosks/assets/prize-wheel/generalinc.php",
+		"/C/Users/mwilliams/Web Stuff/repos/kiosks/assets/roulette-wheel/generalinc.php",
+		"/C/Users/mwilliams/Web Stuff/repos/localprintshop/wp-config.php",
+		"/C/Users/mwilliams/Web Stuff/repos/kiosks/ftpsync.settings",
+		"/C/Users/mwilliams/Web Stuff/repos/kiosks/.gitignore",
+		"/C/Users/mwilliams/Web Stuff/repos/kiosks/index.html",
+		"/C/Users/mwilliams/Web Stuff/repos/kiosks/kiosks.sublime-project",
+		"/C/Users/mwilliams/AppData/Roaming/Sublime Text 2/Packages/User/FTPSync.sublime-settings",
+		"/C/Users/mwilliams/Web Stuff/repos/oddsCalculator/ftpsync.settings",
+		"/C/Users/mwilliams/AppData/Roaming/Sublime Text 2/Packages/FTPSync/FTPSync.sublime-settings",
+		"/C/Users/mwilliams/AppData/Roaming/Sublime Text 2/Packages/FTPSync/Default (Windows).sublime-keymap",
+		"/C/Users/mwilliams/AppData/Roaming/Sublime Text 2/Packages/User/Default (Windows).sublime-keymap",
+		"/C/Users/mwilliams/Web Stuff/repos/kiosks/.htaccess",
+		"/C/Users/mwilliams/Web Stuff/repos/kiosks/.gitattributes",
+		"/C/Users/mwilliams/Web Stuff/repos/kiosks/README.md",
+		"/C/Users/mwilliams/Web Stuff/repos/kiosks/doc/css.md",
+		"/C/Users/mwilliams/Web Stuff/repos/e3/tammi/protected/commands/ProcessJobsCommand.php",
+		"/C/Users/mwilliams/Web Stuff/repos/cf/css/bootstrap-default.css",
+		"/C/Users/mwilliams/AppData/Local/Temp/fz3temp-1/ProcessJobsCommand.php",
+		"/C/Users/mwilliams/Web Stuff/repos/e3/tammi/protected/models/Jobs.php",
+		"/C/Users/mwilliams/Web Stuff/repos/e3/quantityinc.php",
+		"/C/Users/mwilliams/Web Stuff/repos/e3/testing.php",
+		"/C/Users/mwilliams/AppData/Local/Temp/fz3temp-1/quantityinc.php",
+		"/C/Users/mwilliams/Web Stuff/repos/cf/content/step4.php",
+		"/C/Users/mwilliams/Web Stuff/repos/cf/css/bootstrap.css",
+		"/C/Users/mwilliams/Web Stuff/repos/cf/fluid.html",
+		"/C/Users/mwilliams/Web Stuff/repos/cf/hero.html",
+		"/C/Users/mwilliams/Web Stuff/repos/cf/carousel.html",
+		"/C/Users/mwilliams/Web Stuff/repos/cf/marketing-narrow.html",
+		"/C/Users/mwilliams/Web Stuff/repos/cf/sticky-footer.html",
+		"/C/Users/mwilliams/Web Stuff/repos/cf/assets/css/main.css",
+		"/C/Users/mwilliams/Web Stuff/repos/bpcm/act/company/company.php",
+		"/C/Users/mwilliams/AppData/Local/Temp/fz3temp-1/main.css",
+		"/C/Users/mwilliams/Web Stuff/repos/cf/ftpsync.settings",
+		"/C/Users/mwilliams/Web Stuff/repos/cf/starter-template.html",
+		"/C/Users/mwilliams/Web Stuff/repos/oddsCalculator/prizeObject.class.php",
+		"/C/Users/mwilliams/Web Stuff/repos/oddsCalculator/oddsCalculator.class.php",
+		"/C/Users/mwilliams/Web Stuff/repos/oddsCalculator/index.php",
+		"/C/Users/mwilliams/Web Stuff/repos/WP_FineUploader/wp-content/plugins/fineuploader/processUpload.php",
+		"/C/Users/mwilliams/Web Stuff/repos/WP_FineUploader/wp-content/plugins/fineuploader/fineuploader.php",
+		"/C/Users/mwilliams/Web Stuff/repos/WP_FineUploader/README.md",
+		"/C/Users/mwilliams/Web Stuff/repos/e3/tammi/protected/models/SystemSettings.php",
+		"/C/Users/mwilliams/Web Stuff/krumo/README",
+		"/C/Users/mwilliams/Web Stuff/repos/e3/tammi/protected/controllers/DashboardController.php",
+		"/C/Users/mwilliams/Web Stuff/krumo/INSTALL",
+		"/C/Users/mwilliams/Web Stuff/repos/e3/tammi/yii/framework/YiiBase.php",
+		"/C/Users/mwilliams/Web Stuff/repos/e3/tammi/index.php",
+		"/C/Users/mwilliams/Web Stuff/repos/e3/tammi/yii/framework/yii.php",
+		"/C/Users/mwilliams/Web Stuff/repos/e3/tammi/protected/views/dashboard/index.php",
+		"/C/Users/mwilliams/Web Stuff/repos/e3/tammi/protected/config/main.php",
+		"/C/Users/mwilliams/Web Stuff/repos/tammi/protected/config/main.php",
+		"/C/Users/mwilliams/Web Stuff/repos/tammi/protected/config/globals.php",
+		"/C/Users/mwilliams/Web Stuff/repos/e3/dbmain.php",
+		"/C/Users/mwilliams/Web Stuff/repos/e3/dbmain.inc",
+		"/C/Users/mwilliams/Web Stuff/repos/bpcm/index.php",
+		"/C/Users/mwilliams/Web Stuff/repos/tammi/protected/config/ryan_functions.php",
+		"/C/Users/mwilliams/Web Stuff/repos/bpcm/act/promotions/promotion.php",
+		"/C/Users/mwilliams/Web Stuff/repos/bpcm/inc/dbmain.php",
+		"/C/Users/mwilliams/Web Stuff/repos/bpcm/inc/functions.php",
+		"/C/Users/mwilliams/Web Stuff/phpMyAdmin/config.inc.php",
+		"/C/Users/mwilliams/Web Stuff/phpMyAdmin/examples/create_tables.sql",
+		"/C/Users/mwilliams/Web Stuff/phpMyAdmin/examples/upgrade_tables_mysql_4_1_2+.sql",
+		"/C/Users/mwilliams/Downloads/hades (1).sql",
+		"/Z/IT/IT Info/bpws/727071_bizprops (1).sql",
+		"/C/Users/mwilliams/Web Stuff/config.old.inc.php",
+		"/C/Users/mwilliams/Downloads/hades.sql",
+		"/C/Users/mwilliams/Web Stuff/repos/bpcm/inc/mail.php",
+		"/C/Users/mwilliams/Web Stuff/repos/bpcm/act/promotions/c_functions.php",
+		"/C/Users/mwilliams/Web Stuff/repos/bpcm/login.php",
+		"/C/Users/mwilliams/Web Stuff/repos/bpcm/act/login.php",
+		"/C/Users/mwilliams/Web Stuff/repos/bpcm/js/login.js",
+		"/C/Users/mwilliams/Web Stuff/repos/bpcm/js/main.js",
+		"/C/Users/mwilliams/Web Stuff/repos/cm/index.php",
+		"/C/Users/mwilliams/AppData/Local/Temp/fz3temp-1/index.php",
+		"/C/Users/mwilliams/Web Stuff/repos/dbmain.php",
+		"/C/Users/mwilliams/Web Stuff/repos/cm/inc/dbmain.php",
+		"/C/Users/mwilliams/Web Stuff/repos/index.php",
+		"/C/Users/mwilliams/Documents/Google Drive/stylesheet.css",
+		"/C/Users/mwilliams/Documents/Google Drive/index.php",
+		"/C/Users/mwilliams/Documents/Google Drive/index.html",
+		"/C/Users/mwilliams/Web Stuff/repos/cm-test/inc/dbmain.php",
+		"/C/Users/mwilliams/Web Stuff/repos/cm-test/index.php",
+		"/C/Users/mwilliams/Web Stuff/repos/cm-test/act/dbmain.php",
+		"/C/Users/mwilliams/Documents/The Idiots are Taking Over.txt",
+		"/C/Users/mwilliams/Web Stuff/repos/fineUploader/wp-content/themes/trace-cmyk-theme/functions.php",
+		"/C/Users/mwilliams/Web Stuff/repos/fineUploader/wp-content/plugins/fineuploader/processUpload.php",
+		"/C/Users/mwilliams/Web Stuff/repos/fineUploader/wp-content/plugins/fineuploader/readme.txt",
+		"/C/Users/mwilliams/Web Stuff/repos/fineUploader/wp-content/themes/trace-cmyk-theme/template-3step-form.php",
+		"/C/Users/mwilliams/Web Stuff/repos/fineUploader/wp-content/plugins/fineuploader/fineuploader-3.2.css",
+		"/C/Users/mwilliams/Web Stuff/repos/fineUploader/wp-content/plugins/fineuploader/fineuploader.php",
+		"/C/Users/mwilliams/AppData/Local/Microsoft/Windows/Temporary Internet Files/Content.IE5/P4CJ8L7V/processUpload.php",
+		"/C/Users/mwilliams/AppData/Local/Temp/Rar$DIa0.925/akismet.php",
+		"/C/Users/mwilliams/AppData/Local/Temp/Rar$DIa0.427/index.php",
+		"/C/Users/mwilliams/AppData/Local/Temp/Rar$DIa0.212/default-widgets.php",
+		"/C/Users/mwilliams/AppData/Local/Temp/Rar$DIa0.442/widgets.php",
+		"/C/Users/mwilliams/AppData/Local/Temp/Rar$DIa0.686/wp-db.php",
+		"/C/Users/mwilliams/AppData/Local/Temp/Rar$DIa0.934/rss.php",
+		"/C/Users/mwilliams/AppData/Local/Temp/fz3temp-1/sessioncheck.inc",
+		"/C/Users/mwilliams/Web Stuff/repos/sessioncheck.inc",
+		"/C/Users/mwilliams/Web Stuff/dbmain.php",
+		"/C/Users/mwilliams/AppData/Roaming/Sublime Text 2/Packages/SideBarGit/SideBarGit.sublime-settings",
+		"/C/Users/mwilliams/AppData/Roaming/Sublime Text 2/Packages/User/SideBarGit.sublime-settings",
+		"/C/Users/mwilliams/Web Stuff/repos/index.php.old",
+		"/C/Users/mwilliams/Web Stuff/oddsCalculator/index.php",
+		"/C/Users/mwilliams/Web Stuff/repos/e3/index.php"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"context",
+			"Validator",
+			"$save",
+			"type",
+			"validator",
+			"validate",
+			"the next step",
+			"Number(steps - 1)",
+			"kiosk",
+			"prizeValue",
+			"prizeName",
+			"rouletteValue",
+			"rouletteName",
+			"prizeName",
+			"prizeValue",
+			"prizeName",
+			"prizeValue",
+			"fname",
+			"lname",
+			"fname",
+			"lname",
+			"fname",
+			"cur",
+			"scriptSpinToWin",
+			"add",
+			"JSON",
+			"JSON data",
+			"$(this).promoNav();",
+			"scriptSpinToWin",
+			"'easeOutBounce'",
+			"126",
+			".extended",
+			"#logo.expanded",
+			"hide('scale', {duration: 800, easing: 'easeOutBounce'})",
+			"hide('slow', {duration: 800, easing: 'easeOutBounce'})",
+			"show('easeOutBounce')",
+			"hide('easeOutBounce')",
+			"answersDiv",
+			"$(answersId)",
+			"mysql",
+			"cf-question",
+			"option",
+			"step3",
+			"step2",
+			".transition",
+			"cf-section",
+			"relative;",
+			"cf-markup",
+			"images/",
+			"#666",
+			"class=\"carousel-caption\"",
+			"class=\"label\"",
+			"getMade",
+			"active",
+			"$companyName",
+			"`t1_",
+			"`t0_",
+			"getConfirmation",
+			"getMade",
+			"active",
+			"mysql_query(",
+			"getMade",
+			"tasummary",
+			"press run",
+			"emailSender",
+			"\\[[a-zA-Z_]*\\]",
+			"only_db",
+			" $",
+			"[\\s\\S][\\)]",
+			" )",
+			"[\\s\\S][\\)]",
+			"var_dump[\\(][\\s\\S]",
+			"$(document).on(\"click\",\"#nav-plugins\",function(){ $.post('act/wallet/wallet.php', function(resp) {$('#maincol').html(resp);}); $(\".csubnav\").hide(); return false; });",
+			"edit-info",
+			"c_start",
+			"contest_start",
+			"c_start",
+			"apollo",
+			"max",
+			"Max",
+			"e3",
+			"could not connect",
+			"$odds",
+			"$value"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"steps",
+			"roulette_value",
+			"roulette_name",
+			"roulette_value",
+			"roulette_name",
+			"prize_name",
+			"prize_value",
+			"prize_name",
+			"prize_value",
+			"first_name",
+			"last_name",
+			"first_name",
+			"last_name",
+			"first_name",
+			"$(this).nav('promoNav');",
+			"'slow'",
+			"#logo.extended",
+			"hide('slow')",
+			"show('scale', {duration: 800, easing: 'easeOutBounce'})",
+			"hide('scale', {duration: 800, easing: 'easeOutBounce'})",
+			"answerDiv",
+			"$(answersDiv)",
+			"li",
+			"step4",
+			"step3",
+			".animate",
+			"img/",
+			"#333",
+			"class=\"carousel-markup\"",
+			"class=\"info-label\"",
+			"`dmdrops_",
+			"`jobs_",
+			"$mysql->query(",
+			"\\['[a-zA-Z_]*'\\]",
+			". \"\\r\"",
+			". \"r\"",
+			"echo ",
+			"$(document).on(\"click\",\"#nav-plugins\",function(){ $.post('act/plugins/plugins.php', function(resp) {$('#maincol').html(resp);}); $(\".csubnav\").hide(); return false; });",
+			"hades",
+			"playingOdds",
+			"PlayingOdds",
+			"hades",
+			"$winner",
+			"$prize"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		},
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 30.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.5,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 102.0
+	},
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 174.0,
+	"status_bar_visible": true
+}
