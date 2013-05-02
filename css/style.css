@@ -307,9 +307,9 @@ input[type="color"]:focus,
 */
 #home{
 	background-color:#fff;
-	background:url(../img/wedding1.jpg)  no-repeat fixed center center transparent;
-	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../img/wedding1.jpg',sizingMethod='scale');
-	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../img/wedding1.jpg',sizingMethod='scale')";
+	background:url(../img/flowers_color.jpg)  no-repeat fixed center center transparent;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../img/flowers_color.jpg',sizingMethod='scale');
+	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../img/flowers_color.jpg',sizingMethod='scale')";
 	background-size: 100% 100%;
 	height: 780px;
 	padding: 40px 0 50px;
@@ -474,9 +474,9 @@ input[type="color"]:focus,
 */
 #ceremony{
 	background-color:#fff;
-	background:url(../img/wedding1.jpg)  no-repeat fixed center center transparent;
-	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../img/wedding1.jpg',sizingMethod='scale');
-	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../img/wedding1.jpg',sizingMethod='scale')";
+	background:url(../img/veil.jpg)  no-repeat fixed center center transparent;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../img/veil.jpg',sizingMethod='scale');
+	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../img/veil.jpg',sizingMethod='scale')";
 	background-size: 100% 100%;
 	height: 800px;
 	padding: 40px 0;
@@ -555,9 +555,9 @@ input[type="color"]:focus,
 
 #ceremony h4{
 	font-family: 'Playfair Display SC', serif;
-	font-size: 16px;
+	font-size: 24px;
 	line-height: 20px;
-	color: #272727;
+	color: #fff;
 	text-align: center;
 	text-transform: capitalize;
 	font-weight: 400;
@@ -653,9 +653,9 @@ input[type="color"]:focus,
 */
 #contact{
 	background-color:#fff;
-	background:url(../img/wedding2.jpg)  no-repeat fixed center center transparent;
-	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../img/wedding2.jpg',sizingMethod='scale');
-	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../img/wedding2.jpg',sizingMethod='scale')";
+	background:url(../img/sitting.jpg)  no-repeat fixed center center transparent;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../img/sitting.jpg',sizingMethod='scale');
+	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../img/sitting.jpg',sizingMethod='scale')";
 	background-size: 100% 100%;
 	height: 750px;
 	padding: 40px 0;
@@ -723,6 +723,8 @@ input[type="color"]:focus,
 	background:#efefef;
 	border:1px solid #bbb;
 	border-radius:4px;
+	box-shadow:1px 1px 2px #333;
+	-webkit-box-shadow:1px 1px 2px #333;
 }
 
 .rsvp-choice span {
@@ -745,6 +747,8 @@ input[type="color"]:focus,
 	background: linear-gradient(to bottom,  #c1ecff 0%,#66ccff 100%);
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c1ecff', endColorstr='#66ccff',GradientType=0 );
 	border:1px solid #66ccff;
+	box-shadow:inset 1px 1px 2px #333;
+	-webkit-box-shadow:inset 1px 1px 2px #333;
 }
 
 .rsvp-choice:hover span,
