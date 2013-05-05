@@ -661,6 +661,16 @@ input[type="color"]:focus,
 	padding: 40px 0;
 }
 
+
+#contact:after {
+    background: url("../img/line.png") repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    height: 26px;
+    position: absolute;
+    width: 100%;
+}
+
 #contact h2{
     font-family: 'Alex Brush', cursive;
 	font-weight: normal;
@@ -711,11 +721,11 @@ input[type="color"]:focus,
 }
 
 .rsvp-choice {
-	width:45%;
-	margin:0 2%;
-	display:inline-block;
-	height:100%;
-	text-align:center;
+	/*width:45%;*/
+	/*margin:0 2%;*/
+	/*display:inline-block;*/
+	/*height:100%;*/
+	/*text-align:center;*/
 	-webkit-box-sizing:border-box;
 	-moz-box-sizing:border-box;
 	-ms-box-sizing:border-box;
@@ -760,7 +770,58 @@ input[type="color"]:focus,
 
 /*
 	================
-	[9. RESPONSIVE]
+	[9. MAPS & DIRS]
+	================
+*/
+
+#maps {
+	/*background:transparent;*/
+	height: 750px;
+	padding: 40px 0;
+	width:100%;
+	position:relative;
+}
+
+/*
+#maps:after {
+    background: url("../img/line.png") repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    height: 26px;
+    position: absolute;
+    width: 100%;
+}*/
+
+.map-canvas {
+	height: 700px;
+	padding: 40px 0;
+	width:100%;
+	position:relative;
+}
+
+#maps h2 {
+    /*color: #FFFFFF;*/
+    font-family: 'Alex Brush',cursive;
+    font-size: 85px;
+    font-weight: normal;
+    line-height: 85px;
+    margin: 0;
+    /*padding: 100px 0 30px;*/
+    text-align: center;
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.5);
+    z-index:10000000000;
+}
+
+.map-canvas img {
+	max-width:none;
+	width:auto;
+	display:inline;
+}
+
+
+/*
+	================
+	[10. RESPONSIVE]
 	================
 */
 

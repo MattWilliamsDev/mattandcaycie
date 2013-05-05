@@ -29,17 +29,17 @@
 	"default": {
 
 		// address
-		"host": "hades.triauto.net",
+		"host": "50.62.234.1",
 
 		//"port": 21,
 
 		// credentials
-		"username": "mwilliams",  // or null for anonymous login
+		"username": "mwwd3142",  // or null for anonymous login
 		"password": "Wm#95179517",
 
 		// server path to your project (example: /www/)
 		// start with "/" and then append all the folders you'd need to open to get to your project from topmost folder
-		"path": "/home/mwilliams/hades.triauto.net/mattandcaycie/"
+		"path": "/mattandcaycie/"
 
 		// encoding used for filenames and filepaths ("auto" or other charset name)
 		//

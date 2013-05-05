@@ -1,12 +1,15 @@
 <?php
 
-// http://hades.triauto.net/mattandcaycie/lib/processForm.php?attending=true&name=TurdFerguson&number-attending=4
+// http://www.mattandcaycie.com/lib/processForm.php?attending=true&name=TurdFerguson&count=4
 $params = $_REQUEST;
 $attending = $params['attending'];
 $name = $params['name'];
-$number = $params['number-attending'];
+$count = $params['count'];
+$mysql = new mysqli('68.178.140.78', 'mattandcaycie', 'Wm#95179517', 'mattandcaycie');
 
-$to = array(
+$cleanName = addslashes( $name );
+
+$mailto = array(
 	'bleacherbum17@gmail.com',
 	'rancec@uindy.edu',
 	'mwilliams@cik.com'
@@ -27,20 +30,34 @@ if ($attending) {
 $message .= "attending the wedding.\n";
 
 if ($attending) {
-	$message .= $name . ' will have ' . $number . ' attending in their party.';
+	$message .= $name . ' will have ' . $count . ' attending in their party.';
 }
+
+// Save to MySQL
+$q = "INSERT INTO rsvp (name, attending, count) VALUES ('{$cleanName}', {$attending}, {$count})";
 
 try {
-	mail($to, $subject, $message, $headers);
+	$res = $mysql->query( $q );
 } catch (Exception $e) {
-	$result['message'] = $e;
+	exit( json_encode( $e ) );
 }
 
-if ($result['message']) {
-	$result['successful'] = false;
-} else {
-	$result['successful'] = true;
-}
+if ( $res ):
+	foreach ( $mailto as $to ):
+		try {
+			mail($to, $subject, $message, $headers);
+		} catch (Exception $e) {
+			$result['message'] = $e;
+		}
+	endforeach;
+
+	if ($result['message']) {
+		$result['successful'] = false;
+	} else {
+		$result['successful'] = true;
+	}
+endif;
+
 $json = json_encode( $result );
 
 if ( $params['user_agent'] != 'ie' ):
