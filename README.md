@@ -1,5 +1,5 @@
-mattandcaycie
-=============
+Matt & Caycie - June 15, 2013
+=============================
 
 # Description
 Simple, single-page website that I put together for my wedding this past year (6/15/2013).  Built with Twitter Bootstrap 2.3.0 and based on the Ditinggal Rabi Wedding Invitation Bootstrap Theme.
