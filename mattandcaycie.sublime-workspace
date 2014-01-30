@@ -303,14 +303,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "index.html",
-			"settings":
-			{
-				"buffer_size": 14509,
-				"line_ending": "Windows"
-			}
-		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -436,6 +428,10 @@
 	},
 	"file_history":
 	[
+		"/C/Users/Matt/Web Stuff/repos/mattandcaycie/index.html",
+		"/D/README.txt",
+		"/C/Users/Matt/Programs and Games/NBA 2k13/mods/Superglobal Codename Creeds v2 - With SJ A3 Shadow MOD/READ ME.txt",
+		"/C/Users/Matt/Programs and Games/Major.League.Baseball.2K12-RELOADED/mods/Beta 0.4/BETA readme.txt",
 		"/C/Users/mwilliams/Web Stuff/repos/kiosk/lib/functions.php",
 		"/C/Users/mwilliams/Web Stuff/repos/kiosk/lib/getMakes.php",
 		"/C/Users/mwilliams/Web Stuff/repos/kiosk/lib/getModels.php",
@@ -559,11 +555,7 @@
 		"/C/Users/mwilliams/AppData/Local/Temp/fz3temp-1/sessioncheck.inc",
 		"/C/Users/mwilliams/Web Stuff/repos/sessioncheck.inc",
 		"/C/Users/mwilliams/Web Stuff/dbmain.php",
-		"/C/Users/mwilliams/AppData/Roaming/Sublime Text 2/Packages/SideBarGit/SideBarGit.sublime-settings",
-		"/C/Users/mwilliams/AppData/Roaming/Sublime Text 2/Packages/User/SideBarGit.sublime-settings",
-		"/C/Users/mwilliams/Web Stuff/repos/index.php.old",
-		"/C/Users/mwilliams/Web Stuff/oddsCalculator/index.php",
-		"/C/Users/mwilliams/Web Stuff/repos/e3/index.php"
+		"/C/Users/mwilliams/AppData/Roaming/Sublime Text 2/Packages/SideBarGit/SideBarGit.sublime-settings"
 	],
 	"find":
 	{
@@ -726,36 +718,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "index.html",
-					"settings":
-					{
-						"buffer_size": 14509,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								824,
-								824
-							]
-						],
-						"settings":
-						{
-							"is_xml": false,
-							"syntax": "Packages/HTML/HTML.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				}
 			]
 		},
 		{
